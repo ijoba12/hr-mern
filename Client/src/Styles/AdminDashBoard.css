@@ -1,0 +1,73 @@
+.active{
+    background-color:#EDF5FF;
+    color:rgba(52, 57, 202, 1);
+    width: 250px;
+    height: 36px;
+    border-radius: 7px;
+
+}
+.admin-dashboard-main{
+    display: flex;
+    min-height: 100vh;
+}
+
+.admin-dashboard-section-1{
+    width: 253px;
+    border-right: 1px solid #ebeef1;
+    padding:6px;
+}
+.admin-dashboard-section-1-div-1 h1{
+    font-family:var(--ff-bricolage);
+    font-weight:400;
+    font-size: 16px;
+
+}
+.admin-dashboard-section-1-div-1 p{
+    font-family:var(--ff-bricolage);
+    font-weight:600;
+    font-size: 12px;
+    color:#ACACAC;
+
+}
+.admin-dashboard-section-1-div-2 h3{
+    font-family:var(--ff-inter);
+    color:#ACACAC ;
+    font-size:16px;
+    font-weight: 400;
+    line-height:16.52px;
+}
+
+.admin-dashboard-section-2{
+    flex: 1;
+    padding: 30px 51px 30px 51px;
+}
+.navlink-header{
+    font-family: var(--ff-Dm-sans);
+    font-size:16px;
+    font-weight: 500;
+}
+/* Teams */
+.teams {
+    width: 50%;
+    margin-bottom: 3rem;
+  }
+  .editTeam{
+    background-color: white;
+    font-weight: 500;
+    color: #3439CA;
+    width: 150px;
+    border: 2px solid #3439CA;
+    
+  }
+@media(max-width:765px){
+    .admin-dashboard-section-1{
+        display: none ;
+    }
+    .admin-dashboard-section-2{
+        padding: 30px 0 30px 0;
+    }
+    .editTeam{
+        width: 100%;
+        font-size: 10px;
+      }
+}
